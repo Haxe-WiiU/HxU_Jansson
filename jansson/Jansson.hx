@@ -5,22 +5,18 @@ package jansson;
 
 @:include("jansson.h")
 @:native("json_error_t")
-extern typedef Json_error_t = {
+@:valueType
+extern class Json_error_t {
     @:include("jansson.h")
-    @:native("line")
-    var line:Int;
+    public var line:Int;
     @:include("jansson.h")
-    @:native("column")
-    var column:Int;
+    public var column:Int;
     @:include("jansson.h")
-    @:native("position")
-    var position:Int;
+    public var position:Int;
     @:include("jansson.h")
-    @:native("source")
-    var source:CArray<Char>;
+    public var source:CArray<Char>;
     @:include("jansson.h")
-    @:native("text")
-    var text:CArray<Char>;
+    public var text:CArray<Char>;
 }
 
 @:include("jansson.h")
