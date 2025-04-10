@@ -1,0 +1,12 @@
+{
+    "name": "jansson",
+    "url" : "https://github.com/Slushi-Github/hxJansson",
+    "license": "Apache",
+    "tags": ["native", "wiiu"],
+    "description": "Haxe @:native bindings for jansson, a C library for encoding, decoding and manipulating JSON data.",
+    "version": "1.0.0",	
+    "releasenote": "",
+    "contributors": ["Slushi"],
+    "dependencies": {
+    }
+}
