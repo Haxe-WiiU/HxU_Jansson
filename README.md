@@ -7,7 +7,7 @@ This library is **NOT** for normal use in Haxe, do not try to use it in a common
 # Installation
 To install this library, just install it through Haxelib:
 ```
-haxelib git hxjansson https://github.com/Slushi-Github/hxjansson
+haxelib git hxu_jansson https://github.com/Haxe-WiiU/HxU_Jansson
 ```
 And then add the library to your HxCompileU JSON config (You need HxCompileU version 1.3.4 or higher):
 ```json
