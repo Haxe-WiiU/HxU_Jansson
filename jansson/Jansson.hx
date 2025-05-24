@@ -17,6 +17,9 @@ extern class Json_error_t {
     public var source:CArray<Char>;
     @:include("jansson.h")
     public var text:CArray<Char>;
+
+    @:haxe.warning("-WExternWithExpr")
+    public function new() {}
 }
 
 @:include("jansson.h")
@@ -44,6 +47,9 @@ extern class Json_t {
     @:structAccess
     @:native("refcount")
     public var refcount:SizeT;
+
+    @:haxe.warning("-WExternWithExpr")
+    public function new() {}
 }
 
 @:include("jansson.h")
