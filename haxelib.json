@@ -4,7 +4,7 @@
     "license": "Apache",
     "tags": ["native", "wiiu"],
     "description": "Haxe @:native bindings for jansson, a C library for encoding, decoding and manipulating JSON data.",
-    "version": "1.0.0",	
+    "version": "1.1.0",	
     "releasenote": "",
     "contributors": ["Slushi"],
     "dependencies": {
